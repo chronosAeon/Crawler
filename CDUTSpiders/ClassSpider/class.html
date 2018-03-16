@@ -1,0 +1,1380 @@
+<!DOCTYPE html PUBLIC '-//W3C//DTD XHTML 1.0 Transitional//EN' 'http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd'>
+<html xmlns='http://www.w3.org/1999/xhtml'>
+<head runat='server'>
+<title></title>
+<script src='../../Script/jquery-1.6.2.min.js' type='text/javascript'></script>
+<style type='text/css'>
+div{font-size:8px;}
+.td1{font-size:8px;background:#dddddd;text-align:center;}
+.td2{background:#dddddd;text-align:center;font-size:8px;border-top: none;border-left: none; border-right:1px solid  #000000; border-bottom:1px solid  #000000;}
+.tab1{background:#ffffff;border-collapse:collapse;color:#000000;width:1430px;border: 1px solid #000000;padding:2px;font-size:8px;}
+.tab2{width:100%;background:#ffffff;border-collapse:collapse;color:#000000;border: 1px solid #000000;padding:2px;font-size:8px;}
+.tab3{border:0; width:98%;}
+td.x{padding-left:0px;}
+.b { margin:0px;padding:2px}
+.b ul { margin:0px;list-style-type: none; width: 1430px;   }
+.b ul li {border-left: 1px solid #000000;    width: 282px; float: left; padding-top:2px;padding-left:2px;padding-right:3px;margin-left:0px;margin-right:4px}
+.ttt{ align:center;font-size:8px; border-top: none; border-left: none; border-right:1px solid  #000000;border-bottom:1px solid  #000000;}
+.ttt1 {  align:center; font-size:8px;border-top: none;border-left: none;border-right:1px solid  #000000;border-bottom:1px solid  #000000;}
+.fontcss{font-size:8px;}
+.roomcss{font-size:8px;}
+.fontcourse { font-size:8px; font-weight:bold;}
+.detail {border: 1px solid #000000;padding:2px;font-size:8px;}
+.title {font-size:21px;font-weight:bold;border-top: 0px solid  #000000;border-left: 0px solid  #000000;border-right:0px solid  #000000;border-bottom:0px solid  #000000;text-align:center;}
+.title1{font-size:14px; border-top: 0px solid  #000000; border-left: 0px solid  #000000;border-right:0px solid  #000000; border-bottom:0px solid  #000000;}
+</style>
+</head>
+<body style='overflow:auto;width:1430px;margin-top:0px; margin-left:0px; margin-right:0px;-webkit-print-color-adjust: exact;'>
+
+<table  class='tab3' >
+  <tr>
+    <td   class='title nob' align='center'>成都理工大学本(专)科学生课表(2016-2017学年第一学期)
+</td>
+  </tr>
+  <tr>
+    <td class='title1' align='center'>学号:201505090213    姓名:蔡雨池    班级:2015050902      学院/专业:地球物理学院0509空间信息与数字技术    年级:2015   生成日期:2018-03-16</td>
+  </tr>
+</table><table border=1 cellpadding=0 cellspacing=0 style='background:#ffffff;border-collapse:collapse;color:#000000'    class='tab1'><tr>
+<td ROWSPAN=2 bgcolor='#dddddd' style='width:3%' align='center' noWrap='true'>周/节</td>
+<td colSpan=12 class='td1'>星期一</td>
+<td colSpan=12 class='td1'>星期二</td>
+<td colSpan=12 class='td1'>星期三</td>
+<td colSpan=12 class='td1'>星期四</td>
+<td colSpan=12 class='td1'>星期五</td>
+<td colSpan=12 class='td1'>星期六</td>
+<td colSpan=12 class='td1'>星期日</td>
+</tr><tr>
+<td bgcolor='#dddddd' class='ttt' colspan='2' ALIGN=center style='width:22px'>1-2</td>
+<td bgcolor='#dddddd' class='ttt' colspan='2' ALIGN=center style='width:22px'>3-4</td>
+<td bgcolor='#dddddd' class='ttt' colspan='1' ALIGN=center style='width:11px'>午</td>
+<td bgcolor='#dddddd' class='ttt' colspan='2' ALIGN=center style='width:22px'>5-6</td>
+<td bgcolor='#dddddd' class='ttt' colspan='2' ALIGN=center style='width:22px'>7-8</td>
+<td bgcolor='#dddddd' class='ttt' colspan='3' ALIGN=center style='width:33px'>9-11</td>
+<td bgcolor='#dddddd' class='ttt' colspan='2' ALIGN=center style='width:22px'>1-2</td>
+<td bgcolor='#dddddd' class='ttt' colspan='2' ALIGN=center style='width:22px'>3-4</td>
+<td bgcolor='#dddddd' class='ttt' colspan='1' ALIGN=center style='width:11px'>午</td>
+<td bgcolor='#dddddd' class='ttt' colspan='2' ALIGN=center style='width:22px'>5-6</td>
+<td bgcolor='#dddddd' class='ttt' colspan='2' ALIGN=center style='width:22px'>7-8</td>
+<td bgcolor='#dddddd' class='ttt' colspan='3' ALIGN=center style='width:33px'>9-11</td>
+<td bgcolor='#dddddd' class='ttt' colspan='2' ALIGN=center style='width:22px'>1-2</td>
+<td bgcolor='#dddddd' class='ttt' colspan='2' ALIGN=center style='width:22px'>3-4</td>
+<td bgcolor='#dddddd' class='ttt' colspan='1' ALIGN=center style='width:11px'>午</td>
+<td bgcolor='#dddddd' class='ttt' colspan='2' ALIGN=center style='width:22px'>5-6</td>
+<td bgcolor='#dddddd' class='ttt' colspan='2' ALIGN=center style='width:22px'>7-8</td>
+<td bgcolor='#dddddd' class='ttt' colspan='3' ALIGN=center style='width:33px'>9-11</td>
+<td bgcolor='#dddddd' class='ttt' colspan='2' ALIGN=center style='width:22px'>1-2</td>
+<td bgcolor='#dddddd' class='ttt' colspan='2' ALIGN=center style='width:22px'>3-4</td>
+<td bgcolor='#dddddd' class='ttt' colspan='1' ALIGN=center style='width:11px'>午</td>
+<td bgcolor='#dddddd' class='ttt' colspan='2' ALIGN=center style='width:22px'>5-6</td>
+<td bgcolor='#dddddd' class='ttt' colspan='2' ALIGN=center style='width:22px'>7-8</td>
+<td bgcolor='#dddddd' class='ttt' colspan='3' ALIGN=center style='width:33px'>9-11</td>
+<td bgcolor='#dddddd' class='ttt' colspan='2' ALIGN=center style='width:22px'>1-2</td>
+<td bgcolor='#dddddd' class='ttt' colspan='2' ALIGN=center style='width:22px'>3-4</td>
+<td bgcolor='#dddddd' class='ttt' colspan='1' ALIGN=center style='width:11px'>午</td>
+<td bgcolor='#dddddd' class='ttt' colspan='2' ALIGN=center style='width:22px'>5-6</td>
+<td bgcolor='#dddddd' class='ttt' colspan='2' ALIGN=center style='width:22px'>7-8</td>
+<td bgcolor='#dddddd' class='ttt' colspan='3' ALIGN=center style='width:33px'>9-11</td>
+<td bgcolor='#dddddd' class='ttt' colspan='2' ALIGN=center style='width:22px'>1-2</td>
+<td bgcolor='#dddddd' class='ttt' colspan='2' ALIGN=center style='width:22px'>3-4</td>
+<td bgcolor='#dddddd' class='ttt' colspan='1' ALIGN=center style='width:11px'>午</td>
+<td bgcolor='#dddddd' class='ttt' colspan='2' ALIGN=center style='width:22px'>5-6</td>
+<td bgcolor='#dddddd' class='ttt' colspan='2' ALIGN=center style='width:22px'>7-8</td>
+<td bgcolor='#dddddd' class='ttt' colspan='3' ALIGN=center style='width:33px'>9-11</td>
+<td bgcolor='#dddddd' class='ttt' colspan='2' ALIGN=center style='width:22px'>1-2</td>
+<td bgcolor='#dddddd' class='ttt' colspan='2' ALIGN=center style='width:22px'>3-4</td>
+<td bgcolor='#dddddd' class='ttt' colspan='1' ALIGN=center style='width:11px'>午</td>
+<td bgcolor='#dddddd' class='ttt' colspan='2' ALIGN=center style='width:22px'>5-6</td>
+<td bgcolor='#dddddd' class='ttt' colspan='2' ALIGN=center style='width:22px'>7-8</td>
+<td bgcolor='#dddddd' class='ttt' colspan='3' ALIGN=center style='width:33px'>9-11</td>
+</tr>
+<tr>
+<td class='td1' nowrap="nowrap" >01周<br/>08/29-09/04</td>
+
+<td  class='fontcss'  nowrap='nowrap'  ALIGN=center colspan='12'>报到注册</td>
+<td  class='fontcss'  nowrap='nowrap'  ALIGN=center colspan='12'>报到注册</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'  ALIGN=center colspan='2'>地1L1<br/><font class='roomcss'>E1B304</font></td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'  ALIGN=center colspan='2'>教研</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'  ALIGN=center colspan='2'>大390<br/><font class='roomcss'>E1A202</font></td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'  ALIGN=center colspan='2'>大490<br/><font class='roomcss'>E2C202</font></td>
+<td  class='fontcss'  nowrap='nowrap'  ALIGN=center colspan='2'>概L5<br/><font class='roomcss'>E1B208</font></td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'  ALIGN=center colspan='2'>大1S6<br/><font class='roomcss'>TP05</font></td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'  ALIGN=center colspan='2'>金X1<br/><font class='roomcss'>内01C</font></td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+</tr>
+<tr>
+<td class='td1' nowrap="nowrap" >02周<br/>09/05-09/11</td>
+
+<td  class='fontcss'  nowrap='nowrap'  ALIGN=center colspan='2'>大390<br/><font class='roomcss'>E1A202</font></td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'  ALIGN=center colspan='2'>大490<br/><font class='roomcss'>E2C202</font></td>
+<td  class='fontcss'  nowrap='nowrap'  ALIGN=center colspan='2'>概L5<br/><font class='roomcss'>E1B208</font></td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'  ALIGN=center colspan='2'>数L1<br/><font class='roomcss'>6B304</font></td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'  ALIGN=center colspan='2'>地1L1<br/><font class='roomcss'>E1B304</font></td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'  ALIGN=center colspan='2'>教研</td>
+<td  class='fontcss'  nowrap='nowrap'  ALIGN=center colspan='3'>大2R9<br/><font class='roomcss'>6A608</font></td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'  ALIGN=center colspan='2'>大390<br/><font class='roomcss'>E1A202</font></td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'  ALIGN=center colspan='2'>大490<br/><font class='roomcss'>E2C202</font></td>
+<td  class='fontcss'  nowrap='nowrap'  ALIGN=center colspan='2'>概L5<br/><font class='roomcss'>E1B208</font></td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'  ALIGN=center colspan='2'>地1L1<br/><font class='roomcss'>6B304</font></td>
+<td  class='fontcss'  nowrap='nowrap'  ALIGN=center colspan='2'>数L1<br/><font class='roomcss'>6B304</font></td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'  ALIGN=center colspan='2'>大1S6<br/><font class='roomcss'>TP05</font></td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'  ALIGN=center colspan='2'>地1R2<br/><font class='roomcss'>6A607</font></td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'  ALIGN=center colspan='4'>大2L8<br/><font class='roomcss'>E1A104</font></td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+</tr>
+<tr>
+<td class='td1' nowrap="nowrap" >03周<br/>09/12-09/18</td>
+
+<td  class='fontcss'  nowrap='nowrap'  ALIGN=center colspan='2'>大390<br/><font class='roomcss'>E1A202</font></td>
+<td  class='fontcss'  nowrap='nowrap'  ALIGN=center colspan='2'>电1L1<br/><font class='roomcss'>E2C305</font></td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'  ALIGN=center colspan='2'>M1L1<br/><font class='roomcss'>E1A303</font></td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'  ALIGN=center colspan='2'>大490<br/><font class='roomcss'>E2C202</font></td>
+<td  class='fontcss'  nowrap='nowrap'  ALIGN=center colspan='2'>概L5<br/><font class='roomcss'>E1B208</font></td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'  ALIGN=center colspan='2'>数L1<br/><font class='roomcss'>6B304</font></td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'  ALIGN=center colspan='2'>电1L1<br/><font class='roomcss'>E2C305</font></td>
+<td  class='fontcss'  nowrap='nowrap'  ALIGN=center colspan='2'>地1L1<br/><font class='roomcss'>E1B304</font></td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'  ALIGN=center colspan='2'>教研</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'  ALIGN=center colspan='12'>中秋节</td>
+<td  class='fontcss'  nowrap='nowrap'  ALIGN=center colspan='12'>中秋节</td>
+<td  class='fontcss'  nowrap='nowrap'  ALIGN=center colspan='12'>中秋节</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+</tr>
+<tr>
+<td class='td1' nowrap="nowrap" >04周<br/>09/19-09/25</td>
+
+<td  class='fontcss'  nowrap='nowrap'  ALIGN=center colspan='2'>大390<br/><font class='roomcss'>E1A202</font></td>
+<td  class='fontcss'  nowrap='nowrap'  ALIGN=center colspan='2'>电1L1<br/><font class='roomcss'>E2C305</font></td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'  ALIGN=center colspan='2'>M1L1<br/><font class='roomcss'>E1A303</font></td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'  ALIGN=center colspan='2'>大490<br/><font class='roomcss'>E2C202</font></td>
+<td  class='fontcss'  nowrap='nowrap'  ALIGN=center colspan='2'>概L5<br/><font class='roomcss'>E1B208</font></td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'  ALIGN=center colspan='2'>数L1<br/><font class='roomcss'>6B304</font></td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'  ALIGN=center colspan='2'>电1L1<br/><font class='roomcss'>E2C305</font></td>
+<td  class='fontcss'  nowrap='nowrap'  ALIGN=center colspan='2'>地1L1<br/><font class='roomcss'>E1B304</font></td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'  ALIGN=center colspan='2'>M1R1<br/><font class='roomcss'>6A607</font></td>
+<td  class='fontcss'  nowrap='nowrap'  ALIGN=center colspan='2'>教研</td>
+<td  class='fontcss'  nowrap='nowrap'  ALIGN=center colspan='3'>大2R9<br/><font class='roomcss'>6A608</font></td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'  ALIGN=center colspan='2'>大390<br/><font class='roomcss'>E1A202</font></td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'  ALIGN=center colspan='2'>大490<br/><font class='roomcss'>E2C202</font></td>
+<td  class='fontcss'  nowrap='nowrap'  ALIGN=center colspan='2'>概L5<br/><font class='roomcss'>E1B208</font></td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'  ALIGN=center colspan='2'>地1L1<br/><font class='roomcss'>6B304</font></td>
+<td  class='fontcss'  nowrap='nowrap'  ALIGN=center colspan='2'>数L1<br/><font class='roomcss'>6B304</font></td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'  ALIGN=center colspan='2'>大1S6<br/><font class='roomcss'>TP05</font></td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'  ALIGN=center colspan='2'>地1R2<br/><font class='roomcss'>6A607</font></td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+</tr>
+<tr>
+<td class='td1' nowrap="nowrap" >05周<br/>09/26-10/02</td>
+
+<td  class='fontcss'  nowrap='nowrap'  ALIGN=center colspan='2'>大390<br/><font class='roomcss'>E1A202</font></td>
+<td  class='fontcss'  nowrap='nowrap'  ALIGN=center colspan='2'>电1L1<br/><font class='roomcss'>E2C305</font></td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'  ALIGN=center colspan='2'>大490<br/><font class='roomcss'>E2C202</font></td>
+<td  class='fontcss'  nowrap='nowrap'  ALIGN=center colspan='2'>概L5<br/><font class='roomcss'>E1B208</font></td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'  ALIGN=center colspan='2'>数L1<br/><font class='roomcss'>6B304</font></td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'  ALIGN=center colspan='2'>电1L1<br/><font class='roomcss'>E2C305</font></td>
+<td  class='fontcss'  nowrap='nowrap'  ALIGN=center colspan='2'>地1L1<br/><font class='roomcss'>E1B304</font></td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'  ALIGN=center colspan='2'>M1R1<br/><font class='roomcss'>6A607</font></td>
+<td  class='fontcss'  nowrap='nowrap'  ALIGN=center colspan='2'>教研</td>
+<td  class='fontcss'  nowrap='nowrap'  ALIGN=center colspan='3'>大2R9<br/><font class='roomcss'>6A608</font></td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'  ALIGN=center colspan='2'>大390<br/><font class='roomcss'>E1A202</font></td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'  ALIGN=center colspan='2'>大490<br/><font class='roomcss'>E2C202</font></td>
+<td  class='fontcss'  nowrap='nowrap'  ALIGN=center colspan='2'>概L5<br/><font class='roomcss'>E1B208</font></td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'  ALIGN=center colspan='2'>地1L1<br/><font class='roomcss'>6B304</font></td>
+<td  class='fontcss'  nowrap='nowrap'  ALIGN=center colspan='2'>数L1<br/><font class='roomcss'>6B304</font></td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'  ALIGN=center colspan='2'>大1S6<br/><font class='roomcss'>TP05</font></td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'  ALIGN=center colspan='12'>国庆节</td>
+<td  class='fontcss'  nowrap='nowrap'  ALIGN=center colspan='12'>国庆节</td>
+</tr>
+<tr>
+<td class='td1' nowrap="nowrap" >06周<br/>10/03-10/09</td>
+
+<td  class='fontcss'  nowrap='nowrap'  ALIGN=center colspan='12'>国庆节</td>
+<td  class='fontcss'  nowrap='nowrap'  ALIGN=center colspan='12'>国庆节</td>
+<td  class='fontcss'  nowrap='nowrap'  ALIGN=center colspan='12'>国庆节</td>
+<td  class='fontcss'  nowrap='nowrap'  ALIGN=center colspan='12'>国庆节</td>
+<td  class='fontcss'  nowrap='nowrap'  ALIGN=center colspan='12'>国庆节</td>
+<td  class='fontcss'  nowrap='nowrap'  ALIGN=center colspan='3'>地1R2<br/><font class='roomcss'>6A607</font></td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+</tr>
+<tr>
+<td class='td1' nowrap="nowrap" >07周<br/>10/10-10/16</td>
+
+<td  class='fontcss'  nowrap='nowrap'  ALIGN=center colspan='2'>大390<br/><font class='roomcss'>E1A202</font></td>
+<td  class='fontcss'  nowrap='nowrap'  ALIGN=center colspan='2'>电1L1<br/><font class='roomcss'>E2C305</font></td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'  ALIGN=center colspan='2'>M1L1<br/><font class='roomcss'>E1A303</font></td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'  ALIGN=center colspan='2'>大490<br/><font class='roomcss'>E2C202</font></td>
+<td  class='fontcss'  nowrap='nowrap'  ALIGN=center colspan='2'>概L5<br/><font class='roomcss'>E1B208</font></td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'  ALIGN=center colspan='2'>大415<br/><font class='roomcss'>6A603</font></td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'  ALIGN=center colspan='2'>形L8<br/><font class='roomcss'>E2A205</font></td>
+<td  class='fontcss'  nowrap='nowrap'  ALIGN=center colspan='2'>地1L1<br/><font class='roomcss'>E1B304</font></td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'  ALIGN=center colspan='2'>M1R1<br/><font class='roomcss'>6A607</font></td>
+<td  class='fontcss'  nowrap='nowrap'  ALIGN=center colspan='2'>教研</td>
+<td  class='fontcss'  nowrap='nowrap'  ALIGN=center colspan='3'>大2R9<br/><font class='roomcss'>6A608</font></td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'  ALIGN=center colspan='2'>大390<br/><font class='roomcss'>E1A202</font></td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'  ALIGN=center colspan='2'>大490<br/><font class='roomcss'>E2C202</font></td>
+<td  class='fontcss'  nowrap='nowrap'  ALIGN=center colspan='2'>概L5<br/><font class='roomcss'>E1B208</font></td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'  ALIGN=center colspan='2'>地1L1<br/><font class='roomcss'>6B304</font></td>
+<td  class='fontcss'  nowrap='nowrap'  ALIGN=center colspan='2'>数L1<br/><font class='roomcss'>6B304</font></td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'  ALIGN=center colspan='2'>大1S6<br/><font class='roomcss'>TP05</font></td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'  ALIGN=center colspan='3'>地1R2<br/><font class='roomcss'>6A607</font></td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+</tr>
+<tr>
+<td class='td1' nowrap="nowrap" >08周<br/>10/17-10/23</td>
+
+<td  class='fontcss'  nowrap='nowrap'  ALIGN=center colspan='2'>大390<br/><font class='roomcss'>E1A202</font></td>
+<td  class='fontcss'  nowrap='nowrap'  ALIGN=center colspan='2'>电1L1<br/><font class='roomcss'>E2C305</font></td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'  ALIGN=center colspan='2'>M1L1<br/><font class='roomcss'>E1A303</font></td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'  ALIGN=center colspan='2'>大490<br/><font class='roomcss'>E2C202</font></td>
+<td  class='fontcss'  nowrap='nowrap'  ALIGN=center colspan='2'>概L5<br/><font class='roomcss'>E1B208</font></td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'  ALIGN=center colspan='2'>数L1<br/><font class='roomcss'>6B304</font></td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'  ALIGN=center colspan='2'>形L8<br/><font class='roomcss'>E2A205</font></td>
+<td  class='fontcss'  nowrap='nowrap'  ALIGN=center colspan='2'>地1L1<br/><font class='roomcss'>E1B304</font></td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'  ALIGN=center colspan='2'>M1R1<br/><font class='roomcss'>6A607</font></td>
+<td  class='fontcss'  nowrap='nowrap'  ALIGN=center colspan='2'>教研</td>
+<td  class='fontcss'  nowrap='nowrap'  ALIGN=center colspan='3'>大2R9<br/><font class='roomcss'>6A608</font></td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'  ALIGN=center colspan='2'>大390<br/><font class='roomcss'>E1A202</font></td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'  ALIGN=center colspan='2'>大490<br/><font class='roomcss'>E2C202</font></td>
+<td  class='fontcss'  nowrap='nowrap'  ALIGN=center colspan='2'>概L5<br/><font class='roomcss'>E1B208</font></td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'  ALIGN=center colspan='2'>地1L1<br/><font class='roomcss'>6B304</font></td>
+<td  class='fontcss'  nowrap='nowrap'  ALIGN=center colspan='2'>数L1<br/><font class='roomcss'>6B304</font></td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'  ALIGN=center colspan='2'>大1S6<br/><font class='roomcss'>TP05</font></td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'  ALIGN=center colspan='3'>地1R2<br/><font class='roomcss'>6A607</font></td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+</tr>
+<tr>
+<td class='td1' nowrap="nowrap" >09周<br/>10/24-10/30</td>
+
+<td  class='fontcss'  nowrap='nowrap'  ALIGN=center colspan='2'>大390<br/><font class='roomcss'>E1A202</font></td>
+<td  class='fontcss'  nowrap='nowrap'  ALIGN=center colspan='2'>电1L1<br/><font class='roomcss'>E2C305</font></td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'  ALIGN=center colspan='2'>M1L1<br/><font class='roomcss'>E1A303</font></td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'  ALIGN=center colspan='2'>大490<br/><font class='roomcss'>E2C202</font></td>
+<td  class='fontcss'  nowrap='nowrap'  ALIGN=center colspan='2'>概L5<br/><font class='roomcss'>E1B208</font></td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'  ALIGN=center colspan='2'>数L1<br/><font class='roomcss'>6B304</font></td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'  ALIGN=center colspan='2'>形L8<br/><font class='roomcss'>E2A205</font></td>
+<td  class='fontcss'  nowrap='nowrap'  ALIGN=center colspan='2'>地1L1<br/><font class='roomcss'>E1B304</font></td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'  ALIGN=center colspan='2'>M1R1<br/><font class='roomcss'>6A607</font></td>
+<td  class='fontcss'  nowrap='nowrap'  ALIGN=center colspan='2'>教研</td>
+<td  class='fontcss'  nowrap='nowrap'  ALIGN=center colspan='3'>大2R9<br/><font class='roomcss'>6A608</font></td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'  ALIGN=center colspan='2'>大390<br/><font class='roomcss'>E1A202</font></td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'  ALIGN=center colspan='2'>大490<br/><font class='roomcss'>E2C202</font></td>
+<td  class='fontcss'  nowrap='nowrap'  ALIGN=center colspan='2'>概L5<br/><font class='roomcss'>E1B208</font></td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'  ALIGN=center colspan='12'>校庆庆典</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+</tr>
+<tr>
+<td class='td1' nowrap="nowrap" >10周<br/>10/31-11/06</td>
+
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'  ALIGN=center colspan='2'>电1L1<br/><font class='roomcss'>E2C305</font></td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'  ALIGN=center colspan='2'>M1L1<br/><font class='roomcss'>E1A303</font></td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'  ALIGN=center colspan='2'>大490<br/><font class='roomcss'>E2C202</font></td>
+<td  class='fontcss'  nowrap='nowrap'  ALIGN=center colspan='2'>概L5<br/><font class='roomcss'>E1B208</font></td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'  ALIGN=center colspan='2'>数L1<br/><font class='roomcss'>6B304</font></td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'  ALIGN=center colspan='2'>形L8<br/><font class='roomcss'>E2A205</font></td>
+<td  class='fontcss'  nowrap='nowrap'  ALIGN=center colspan='2'>地1L1<br/><font class='roomcss'>E1B304</font></td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'  ALIGN=center colspan='2'>M1R1<br/><font class='roomcss'>6A607</font></td>
+<td  class='fontcss'  nowrap='nowrap'  ALIGN=center colspan='2'>教研</td>
+<td  class='fontcss'  nowrap='nowrap'  ALIGN=center colspan='3'>大2R9<br/><font class='roomcss'>6A608</font></td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'  ALIGN=center colspan='2'>大390<br/><font class='roomcss'>E1A202</font></td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'  ALIGN=center colspan='2'>大490<br/><font class='roomcss'>E2C202</font></td>
+<td  class='fontcss'  nowrap='nowrap'  ALIGN=center colspan='2'>概L5<br/><font class='roomcss'>E1B208</font></td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'  ALIGN=center colspan='2'>地1L1<br/><font class='roomcss'>6B304</font></td>
+<td  class='fontcss'  nowrap='nowrap'  ALIGN=center colspan='2'>数L1<br/><font class='roomcss'>6B304</font></td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'  ALIGN=center colspan='2'>大1S6<br/><font class='roomcss'>TP05</font></td>
+<td  class='fontcss'  nowrap='nowrap'  ALIGN=center colspan='2'>电1R2<br/><font class='roomcss'>6B606</font></td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'  ALIGN=center colspan='3'>地1R2<br/><font class='roomcss'>6A607</font></td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'  ALIGN=center colspan='2'>地1L1<br/><font class='roomcss'>6B304</font></td>
+<td  class='fontcss'  nowrap='nowrap'  ALIGN=center colspan='2'>数L1<br/><font class='roomcss'>6B304</font></td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'  ALIGN=center colspan='2'>大1S6<br/><font class='roomcss'>TP05</font></td>
+<td  class='fontcss'  nowrap='nowrap'  ALIGN=center colspan='2'>电1R2<br/><font class='roomcss'>6B606</font></td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+</tr>
+<tr>
+<td class='td1' nowrap="nowrap" >11周<br/>11/07-11/13</td>
+
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'  ALIGN=center colspan='2'>电1L1<br/><font class='roomcss'>E2C305</font></td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'  ALIGN=center colspan='2'>M1L1<br/><font class='roomcss'>E1A303</font></td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'  ALIGN=center colspan='2'>大490<br/><font class='roomcss'>E2C202</font></td>
+<td  class='fontcss'  nowrap='nowrap'  ALIGN=center colspan='2'>概L5<br/><font class='roomcss'>E1B208</font></td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'  ALIGN=center colspan='2'>数L1<br/><font class='roomcss'>6B304</font></td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'  ALIGN=center colspan='2'>电1L1<br/><font class='roomcss'>E2C305</font></td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'  ALIGN=center colspan='2'>M1R1<br/><font class='roomcss'>6A607</font></td>
+<td  class='fontcss'  nowrap='nowrap'  ALIGN=center colspan='2'>教研</td>
+<td  class='fontcss'  nowrap='nowrap'  ALIGN=center colspan='3'>大2R9<br/><font class='roomcss'>6A608</font></td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'  ALIGN=center colspan='2'>大390<br/><font class='roomcss'>E1A202</font></td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'  ALIGN=center colspan='2'>大490<br/><font class='roomcss'>E2C202</font></td>
+<td  class='fontcss'  nowrap='nowrap'  ALIGN=center colspan='2'>概L5<br/><font class='roomcss'>E1B208</font></td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'  ALIGN=center colspan='2'>数L1<br/><font class='roomcss'>6B304</font></td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'  ALIGN=center colspan='2'>大1S6<br/><font class='roomcss'>TP05</font></td>
+<td  class='fontcss'  nowrap='nowrap'  ALIGN=center colspan='2'>电1R2<br/><font class='roomcss'>6B606</font></td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+</tr>
+<tr>
+<td class='td1' nowrap="nowrap" >12周<br/>11/14-11/20</td>
+
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'  ALIGN=center colspan='2'>电1L1<br/><font class='roomcss'>E2C305</font></td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'  ALIGN=center colspan='2'>M1L1<br/><font class='roomcss'>E1A303</font></td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'  ALIGN=center colspan='2'>大490<br/><font class='roomcss'>E2C202</font></td>
+<td  class='fontcss'  nowrap='nowrap'  ALIGN=center colspan='2'>概L5<br/><font class='roomcss'>E1B208</font></td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'  ALIGN=center colspan='2'>数L1<br/><font class='roomcss'>6B304</font></td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'  ALIGN=center colspan='2'>电1L1<br/><font class='roomcss'>E2C305</font></td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'  ALIGN=center colspan='2'>M1R1<br/><font class='roomcss'>6A607</font></td>
+<td  class='fontcss'  nowrap='nowrap'  ALIGN=center colspan='2'>教研</td>
+<td  class='fontcss'  nowrap='nowrap'  ALIGN=center colspan='3'>大2R9<br/><font class='roomcss'>6A608</font></td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'  ALIGN=center colspan='2'>大390<br/><font class='roomcss'>E1A202</font></td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'  ALIGN=center colspan='2'>大490<br/><font class='roomcss'>E2C202</font></td>
+<td  class='fontcss'  nowrap='nowrap'  ALIGN=center colspan='2'>概L5<br/><font class='roomcss'>E1B208</font></td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'  ALIGN=center colspan='2'>数L1<br/><font class='roomcss'>6B304</font></td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'  ALIGN=center colspan='2'>大1S6<br/><font class='roomcss'>TP05</font></td>
+<td  class='fontcss'  nowrap='nowrap'  ALIGN=center colspan='2'>电1R2<br/><font class='roomcss'>6B606</font></td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+</tr>
+<tr>
+<td class='td1' nowrap="nowrap" >13周<br/>11/21-11/27</td>
+
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'  ALIGN=center colspan='2'>电1L1<br/><font class='roomcss'>E2C305</font></td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'  ALIGN=center colspan='2'>大490<br/><font class='roomcss'>E2C202</font></td>
+<td  class='fontcss'  nowrap='nowrap'  ALIGN=center colspan='2'>概L5<br/><font class='roomcss'>E1B208</font></td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'  ALIGN=center colspan='2'>数L1<br/><font class='roomcss'>6B304</font></td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'  ALIGN=center colspan='2'>电1L1<br/><font class='roomcss'>E2C305</font></td>
+<td  class='fontcss'  nowrap='nowrap'  ALIGN=center colspan='2'>电1R2<br/><font class='roomcss'>6B606</font></td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'  ALIGN=center colspan='2'>教研</td>
+<td  class='fontcss'  nowrap='nowrap'  ALIGN=center colspan='3'>大2R9<br/><font class='roomcss'>6A608</font></td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'  ALIGN=center colspan='2'>大390<br/><font class='roomcss'>E1A202</font></td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'  ALIGN=center colspan='2'>大490<br/><font class='roomcss'>E2C202</font></td>
+<td  class='fontcss'  nowrap='nowrap'  ALIGN=center colspan='2'>概L5<br/><font class='roomcss'>E1B208</font></td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'  ALIGN=center colspan='2'>数L1<br/><font class='roomcss'>6B304</font></td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'  ALIGN=center colspan='2'>大1S6<br/><font class='roomcss'>TP05</font></td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+</tr>
+<tr>
+<td class='td1' nowrap="nowrap" >14周<br/>11/28-12/04</td>
+
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'  ALIGN=center colspan='2'>电1L1<br/><font class='roomcss'>E2C305</font></td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'  ALIGN=center colspan='2'>大490<br/><font class='roomcss'>E2C202</font></td>
+<td  class='fontcss'  nowrap='nowrap'  ALIGN=center colspan='2'>概L5<br/><font class='roomcss'>E1B208</font></td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'  ALIGN=center colspan='2'>电1L1<br/><font class='roomcss'>E2C305</font></td>
+<td  class='fontcss'  nowrap='nowrap'  ALIGN=center colspan='2'>电1R2<br/><font class='roomcss'>6B606</font></td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'  ALIGN=center colspan='2'>教研</td>
+<td  class='fontcss'  nowrap='nowrap'  ALIGN=center colspan='3'>大2R9<br/><font class='roomcss'>6A608</font></td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'  ALIGN=center colspan='2'>大390<br/><font class='roomcss'>E1A202</font></td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'  ALIGN=center colspan='2'>大490<br/><font class='roomcss'>E2C202</font></td>
+<td  class='fontcss'  nowrap='nowrap'  ALIGN=center colspan='2'>概L5<br/><font class='roomcss'>E1B208</font></td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'  ALIGN=center colspan='2'>大1S6<br/><font class='roomcss'>TP05</font></td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+</tr>
+<tr>
+<td class='td1' nowrap="nowrap" >15周<br/>12/05-12/11</td>
+
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'  ALIGN=center colspan='2'>大490<br/><font class='roomcss'>E2C202</font></td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'  ALIGN=center colspan='2'>电1L1<br/><font class='roomcss'>E2C305</font></td>
+<td  class='fontcss'  nowrap='nowrap'  ALIGN=center colspan='2'>电1R2<br/><font class='roomcss'>6B606</font></td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'  ALIGN=center colspan='2'>教研</td>
+<td  class='fontcss'  nowrap='nowrap'  ALIGN=center colspan='3'>大2R9<br/><font class='roomcss'>6A608</font></td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'  ALIGN=center colspan='2'>大390<br/><font class='roomcss'>E1A202</font></td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'  ALIGN=center colspan='2'>大490<br/><font class='roomcss'>E2C202</font></td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'  ALIGN=center colspan='2'>大1S6<br/><font class='roomcss'>TP05</font></td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+</tr>
+<tr>
+<td class='td1' nowrap="nowrap" >16周<br/>12/12-12/18</td>
+
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'  ALIGN=center colspan='2'>大490<br/><font class='roomcss'>E2C202</font></td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'  ALIGN=center colspan='2'>电1L1<br/><font class='roomcss'>E2C305</font></td>
+<td  class='fontcss'  nowrap='nowrap'  ALIGN=center colspan='2'>电1R2<br/><font class='roomcss'>6B606</font></td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'  ALIGN=center colspan='2'>教研</td>
+<td  class='fontcss'  nowrap='nowrap'  ALIGN=center colspan='3'>大2R9<br/><font class='roomcss'>6A608</font></td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'  ALIGN=center colspan='2'>大390<br/><font class='roomcss'>E1A202</font></td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'  ALIGN=center colspan='2'>大490<br/><font class='roomcss'>E2C202</font></td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'  ALIGN=center colspan='2'>大1S6<br/><font class='roomcss'>TP05</font></td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'  ALIGN=center colspan='9'>大学英语四六级</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'  ALIGN=center colspan='12'>艺考</td>
+</tr>
+<tr>
+<td class='td1' nowrap="nowrap" >17周<br/>12/19-12/25</td>
+
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'  ALIGN=center colspan='2'>大490<br/><font class='roomcss'>E2C202</font></td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'  ALIGN=center colspan='2'>教研</td>
+<td  class='fontcss'  nowrap='nowrap'  ALIGN=center colspan='3'>大2R9<br/><font class='roomcss'>6A608</font></td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'  ALIGN=center colspan='2'>大390<br/><font class='roomcss'>E1A202</font></td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'  ALIGN=center colspan='2'>大490<br/><font class='roomcss'>E2C202</font></td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'  ALIGN=center colspan='2'>大1S6<br/><font class='roomcss'>TP05</font></td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'  ALIGN=center colspan='12'>研究生入学考试</td>
+<td  class='fontcss'  nowrap='nowrap'  ALIGN=center colspan='12'>研究生入学考试</td>
+</tr>
+<tr>
+<td class='td1' nowrap="nowrap" >18周<br/>12/26-01/01</td>
+
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'  ALIGN=center colspan='2'>大490<br/><font class='roomcss'>E2C202</font></td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'  ALIGN=center colspan='2'>教研</td>
+<td  class='fontcss'  nowrap='nowrap'  ALIGN=center colspan='2'>大2R9<br/><font class='roomcss'>6A608</font></td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'  ALIGN=center colspan='2'>大390<br/><font class='roomcss'>E1A202</font></td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'  ALIGN=center colspan='2'>大1S6<br/><font class='roomcss'>TP05</font></td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+</tr>
+<tr>
+<td class='td1' nowrap="nowrap" >19周<br/>01/02-01/08</td>
+
+<td  class='fontcss'  nowrap='nowrap'  ALIGN=center colspan='12'>元旦节</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'  ALIGN=center colspan='2'>教研</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'  ALIGN=center colspan='2'>大390<br/><font class='roomcss'>E1A202</font></td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+<td  class='fontcss'  nowrap='nowrap'   >&nbsp;</td>
+</tr>
+<tr>
+<td class='td1' nowrap="nowrap" >20周<br/>01/09-01/15</td>
+
+<td  class='fontcss'  nowrap='nowrap'  ALIGN=center colspan='12'>考试周</td>
+<td  class='fontcss'  nowrap='nowrap'  ALIGN=center colspan='12'>考试周</td>
+<td  class='fontcss'  nowrap='nowrap'  ALIGN=center colspan='12'>考试周</td>
+<td  class='fontcss'  nowrap='nowrap'  ALIGN=center colspan='12'>考试周</td>
+<td  class='fontcss'  nowrap='nowrap'  ALIGN=center colspan='12'>考试周</td>
+<td  class='fontcss'  nowrap='nowrap'  ALIGN=center colspan='12'>考试周</td>
+<td  class='fontcss'  nowrap='nowrap'  ALIGN=center colspan='12'>考试周</td>
+</tr>
+</table>
+<table class='tab2'>
+<tr>
+<td VALIGN='top' class='detail' width='20%'><b  class='fontcourse'>
+(形)形势与政策（3） (ID[L2092]学分[0]</b>
+56206-L38([理] 时[8] 师[廖晓丽] 室[E2A205])2015050901-2 ,2015051001-2<br/></td>
+<td VALIGN='top' class='detail' width='20%'><b  class='fontcourse'>
+(大3)大学英语Ⅱ（3） (ID[L0293]学分[3]</b>
+56367-99990([理] 时[48] 师[李娟] 室[E1A202])2015050901-2<br/></td>
+<td VALIGN='top' class='detail' width='20%'><b  class='fontcourse'>
+(大4)大学物理学Ⅱ（2） (ID[L0284]学分[4]</b>
+56863-99760([理] 时[62] 师[唐科] 室[E2C202])2015011002 ,2015050901-2<br/>56863-100075([实] 时[2] 师[邓邦林] 室[6A603])2015050902<br/></td>
+<td VALIGN='top' class='detail' width='20%'><b  class='fontcourse'>
+(概)概率论与数理统计 (ID[L0588]学分[3]</b>
+56944-L05([理] 时[48] 师[冯思臣] 室[E1B208])2015050901-2 ,2015061401<br/></td>
+<td VALIGN='top' class='detail' width='20%'><b  class='fontcourse'>
+(大2)大学物理实验Ⅱ (ID[L0278]学分[3]</b>
+57262-L08([理] 时[4] 师[张由群] 室[E1A104])2014010604 ,2015050901-2<br/>57262-R19([实] 时[44] 师[田荣刚] 室[6A608])2015050902<br/></td>
+</tr>
+<tr>
+<td VALIGN='top' class='detail' width='20%'><b  class='fontcourse'>
+(金)金工实习 (ID[S0288]学分[1]</b>
+60262-X01([实] 时[0] 师[都春元] 室[01校内c-内01C])2015050901-2备注:请班长开学第一周代上课表到金工实习基地联系实习时间<br/></td>
+<td VALIGN='top' class='detail' width='20%'><b  class='fontcourse'>
+(M1)MATLAB技术 (ID[L0051]学分[2]</b>
+60415-L01([理] 时[16] 师[张瑞丝] 室[E1A303])2015050901-2备注:请自行复习线性代数<br/>60415-R01([实] 时[16] 师[张瑞丝] 室[6A607])2015050901-2<br/></td>
+<td VALIGN='top' class='detail' width='20%'><b  class='fontcourse'>
+(数)数学物理方程 (ID[L1724]学分[2.5]</b>
+60734-L01([理] 时[40] 师[陆从德,陈彩霞] 室[6B304])2015050901-2<br/></td>
+<td VALIGN='top' class='detail' width='20%'><b  class='fontcourse'>
+(电1)电子电工学 (ID[L2613]学分[3.5]</b>
+60800-L01([理] 时[40] 师[高雪菲] 室[E2C305])2015050901-2<br/>60800-R02([实] 时[16] 师[高雪菲] 室[6B606])2015050902<br/></td>
+<td VALIGN='top' class='detail' width='20%'><b  class='fontcourse'>
+(大1)大学体育（3） (ID[L0272]学分[2]</b>
+62951-S56([实] 时[32] 师[张海英] 室[排球5区-TP05])2015010101-4 ,2015020501-2 ,2015040101-4 ,2015040201-5 ,2015050801-2 ,2015050901-2备注:项目:排球<br/></td>
+</tr>
+<tr>
+<td VALIGN='top' class='detail' width='20%'><b  class='fontcourse'>
+(地1)地图学 (ID[L2612]学分[3]</b>
+60413-L01([理] 时[32] 师[叶成名,徐松浦] 室[E1B304,6B304])2015050901-2<br/>60413-R02([实] 时[16] 师[叶成名,徐松浦] 室[6A607])2015050902<br/></td>
+<td valign='top'class='detail' width='20%'></td><td valign='top'class='detail' width='20%'></td><td valign='top'class='detail' width='20%'></td><td valign='top'class='detail' width='20%'></td></tr>
+</table>
+</body>
+</html>
